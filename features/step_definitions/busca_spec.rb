@@ -23,3 +23,4 @@ Entao("devo ver {string} {string} no titulo da pagina") do |nome, titulo|
     tituloFinal = nome + titulo
     expect(page.title).to eql tituloFinal
 end
+

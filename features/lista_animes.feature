@@ -5,7 +5,7 @@ Funcionalidade: Acessar lista
     # Cenário: Acessar lista
     # Dado que eu acesso o site da lista
     # Entao eu vejo o titulo da pagina
-
+    @procura_usuario
     Esquema do Cenário: Busca
         Quando eu procuro o usuario <usuario> na barra de pesquisa
         E escolho o usuario <usuario> na lista
@@ -18,6 +18,13 @@ Funcionalidade: Acessar lista
             | "igoros" |
             | "Ekank"  |
 
-    Cenário: Gerar tabela
-        
+    @procura_anime
+    Esquema do Cenário: Analisar anime
+        Quando eu visito a pagina de pesquisa de anime
+        E digito o nome do anime <anime>
+        Então devo capturar as informações do <anime>
+
+        Exemplos:
+            | anime             |
+            | "Dragon Ball Kai" |
      
