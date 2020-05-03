@@ -22,9 +22,18 @@ class Animes
 
     def mostrarAnimes
         puts "Nome: " + @nome
-        puts "Generos: " + @@generos.join(",")
-        puts "Episodios: " + @episodios
+        puts "Gêneros: " + @@generos.join(",")
+        puts "Episódios: " + @episodios
         puts "Nota: " + @nota
+    end
+
+    def resetar
+        @@generos.clear
+    end
+
+
+    def retornarString
+        "Nome: " + @nome + " | " + "Gêneros: " + @@generos.join(",") + " | " + "Episódios: " + @episodios + " | " + "Nota: " + @nota  
     end
 
     

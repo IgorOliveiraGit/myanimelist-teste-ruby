@@ -10,6 +10,6 @@ Capybara.register_driver :firefox_headless do |app|
   end
 
 Capybara.configure do |config|
-    config.default_driver = :selenium
+    config.default_driver = :selenium_headless
     config.app_host = "https://myanimelist.net/"
 end

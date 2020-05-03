@@ -9,19 +9,27 @@ class ProcurarAnime
         barraPesquisa = find('input[id=q]')
         barraPesquisa.set nome
         find('.inputButton').click
-        nome = nome.tr!(" ", "_")
-        puts nome
-        find("a[href$=" + nome + "]", match: :first).click
+        find('a[href^="https://myanimelist.net/anime/"]', match: :first).click
     end
 
     def capturar(nome)
         anime = Animes.new(nome)
+        listaGeneros = []
         all('a[href^="/anime/genre/"]').each do |generos|
-           anime.adicionarGeneros(generos.text)
+            anime.adicionarGeneros(generos.text)
         end
+        
         anime.adicionarEpisodios(find('#curEps').text)
         anime.adicionarNota(find('.score-label', match: :first).text)
+        
         anime.mostrarAnimes
+
+        f = File.open("listaCompleta.txt", "a") 
+        f.puts(anime.retornarString)
+        f.puts
+        f.close
+        
+        anime.resetar
     end
 
 end
