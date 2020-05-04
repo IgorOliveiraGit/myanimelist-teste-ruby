@@ -1,4 +1,4 @@
-# myanimelist-teste-ruby
+# myanimelist_teste_ruby
 Implementação usando BDD de testes no site Myanimelist.net
 
 Tecnologias utilizadas:
