@@ -14,22 +14,23 @@ class ProcurarAnime
 
     def capturar(nome)
         anime = Animes.new(nome)
+        $listaAnimes = Set.new
         listaGeneros = []
-        all('a[href^="/anime/genre/"]').each do |generos|
+        find('.borderClass', match: :first).all('a[href^="/anime/genre/"]').each do |generos|
             anime.adicionarGeneros(generos.text)
         end
         
         anime.adicionarEpisodios(find('#curEps').text)
         anime.adicionarNota(find('.score-label', match: :first).text)
+
+        listaGeneros.push(anime)
         
         anime.mostrarAnimes
 
         f = File.open("listaCompleta.txt", "a") 
         f.puts(anime.retornarString)
-        f.puts
         f.close
         
-        anime.resetar
     end
 
 end

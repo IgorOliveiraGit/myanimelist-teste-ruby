@@ -26,16 +26,14 @@ class HomePage
            tabela_anime.push(anime.find("a.link.sort", visible: :all)[:text])
         end
 
-        if nome == 'igoros' 
-            $lista1 = tabela_anime
-            File.open("lista.txt", "w+") do |f|
-                tabela_anime.each{|anime| f.puts(anime)}
-            end
-        else
-            $lista2 = tabela_anime
-            File.open("lista2.txt", "w+") do |f|
-                tabela_anime.each{|anime| f.puts(anime)}
-            end
+        $lista1 = tabela_anime
+
+        f = File.open("lista.txt", "a")
+        f.puts("| anime |")
+        f.close
+
+        File.open("lista.txt", "a") do |f|
+        tabela_anime.each{|anime| f.puts("| "+ '"' + anime + '"' + " |")}
         end
     
     end

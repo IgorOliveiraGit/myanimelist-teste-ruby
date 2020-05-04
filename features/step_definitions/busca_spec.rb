@@ -13,9 +13,6 @@ end
 
 E("salvo a lista de animes em um array para exibir no terminal {string}") do |nome|
     @login.salvarLista(nome)
-    if nome == 'Ekank'
-        @implementar.comparar()
-    end
 end
 
 

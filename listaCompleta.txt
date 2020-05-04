@@ -1,26 +1,10 @@
-Nome: 12-sai.: Chicchana Mune no Tokimeki | Gêneros: Romance,School,Shoujo | Episódios: 12 | Nota: 6.47
-
-Nome: Ajin | Gêneros: Action,Mystery,Horror,Supernatural,Seinen | Episódios: 13 | Nota: 7.56
-
-Nome: Akagami no Shirayuki-hime | Gêneros: Fantasy,Romance,Drama,Shoujo | Episódios: 12 | Nota: 7.84
-
-Nome: Akagami no Shirayuki-hime 2nd Season | Gêneros: Drama,Romance,Fantasy,Shoujo | Episódios: 12 | Nota: 8.05
-
-Nome: Akame ga Kill! | Gêneros: Action,Adventure,Drama,Fantasy,Shounen | Episódios: 24 | Nota: 7.64
-
-Nome: Akatsuki no Yona | Gêneros: Action,Comedy,Fantasy,Shoujo | Episódios: 3 | Nota: 8.12
-
-Nome: Amaama to Inazuma | Gêneros: Comedy,Slice of Life,Seinen | Episódios: 12 | Nota: 7.55
-
-Nome: Amagami SS | Gêneros: Slice of Life,Comedy,Romance,School | Episódios: 25 | Nota: 7.42
-
-Nome: Angel Beats! | Gêneros: Action,Comedy,Drama,School,Supernatural | Episódios: 13 | Nota: 8.21
-
-Nome: Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai. | Gêneros: Slice of Life,Supernatural,Drama | Episódios: 11 | Nota: 8.48
-
-Nome: Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai. Movie | Gêneros: Slice of Life,Supernatural,Drama | Episódios: 1 | Nota: 8.04
-
-Nome: Ano Natsu de Matteru | Gêneros: Comedy,Drama,Romance,Sci-Fi,Slice of Life | Episódios: 12 | Nota: 7.56
-
-Nome: Another | Gêneros: Mystery,Horror,Supernatural,Thriller,School | Episódios: 12 | Nota: 7.62
-
+12-sai.: Chicchana Mune no Tokimeki,[Romance,School,Shoujo],12,6.47
+Ajin,[Action,Mystery,Horror,Supernatural,Seinen],13,7.56
+Akagami no Shirayuki-hime,[Fantasy,Romance,Drama,Shoujo],12,7.84
+Akagami no Shirayuki-hime 2nd Season,[Drama,Romance,Fantasy,Shoujo],12,8.05
+Akame ga Kill!,[Action,Adventure,Drama,Fantasy,Shounen],24,7.64
+12-sai.: Chicchana Mune no Tokimeki,[Romance,School,Shoujo],12,6.47
+Ajin,[Action,Mystery,Horror,Supernatural,Seinen],13,7.56
+Akagami no Shirayuki-hime,[Fantasy,Romance,Drama,Shoujo],12,7.84
+Akagami no Shirayuki-hime 2nd Season,[Drama,Romance,Fantasy,Shoujo],12,8.05
+Akame ga Kill!,[Action,Adventure,Drama,Fantasy,Shounen],24,7.64
