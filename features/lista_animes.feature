@@ -15,7 +15,7 @@ Funcionalidade: Acessar lista
 
         Exemplos:
             | usuario  |
-            | "Ekank"  |
+            | "igoros"  |
 
     @procura_anime
     Esquema do Cenário: Analisar anime
